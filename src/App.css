@@ -1,0 +1,24 @@
+ 
+
+ .main{
+  display: flex;
+  align-items: center;
+  /*justify-content:space-evenly;*/
+  
+
+ }
+  .Sidebar{
+    flex:1;
+  }
+  .chatarea{
+    flex:3;
+  }
+  .main{
+    flex: 1;
+  }
+  .footer{
+    align-items:flex-end;
+  }
+  .Chatitem{
+    align-items: center;
+  }
