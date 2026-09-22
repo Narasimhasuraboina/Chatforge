@@ -1,7 +1,7 @@
 function ChatItem(props){
-    const Chatitem=props.Chatitem;
+  
     return(
-        <h1>{Chatitem}</h1>
+        <h5>{props.name}{props.message}</h5>
     );
 }
 export default ChatItem;

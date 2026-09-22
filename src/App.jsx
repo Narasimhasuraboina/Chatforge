@@ -17,18 +17,14 @@ function App() {
         
        <div className='main'> 
  
- <Sidebar  side="this is a side bar"/>
+ <Sidebar />
   
   
-  <Chatarea  Chat="this is the chat area"/>
+  <Chatarea  chat="  this is the chat area"/>
   
- 
-<ChatItem Chatitem="Rahul 
-Hey bro, what's up?" 
-/>
   </div>
  <Footer foot="this is the footer section pal"/>
- 
+  
  </>
   )
 }

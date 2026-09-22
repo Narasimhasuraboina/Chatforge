@@ -1,7 +1,15 @@
+
+import Chatlist from "./Chatlist";
 function Sidebar(props){
-    const side=props.side;
+     
     return(
-        <h5 className="sidebar" align="left">{side}</h5>
+        <>
+        <h5 className="sidebar" align="left">{props.side}</h5>
+      
+        <Chatlist />
+        
+     </>  
     )
+    
 }
 export default Sidebar;
